@@ -1,0 +1,38 @@
+var b_txt = '';
+
+// Write a warning for the developer
+b_txt+= '<!-- DEVELOPER WARNING: The Flickr badge code is likely to be deprecated, and we recommend changing to a new method to embed photo as soon as possible.  See https://www.flickr.com/api for information on how to access Flickr data. Thanks. -->';
+
+// write the badge
+	
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image1"><a href="http://www.flickr.com/photos/sweettones_cupcakes/37398872170/"><img src="http://farm5.staticflickr.com/4511/37398872170_d71c5ae0ce_s.jpg" alt="Una foto de Flickr" title="Banana-Pecan Bread - Sweettonescupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image2"><a href="http://www.flickr.com/photos/sweettones_cupcakes/23739159255/"><img src="http://farm6.staticflickr.com/5636/23739159255_e743287101_s.jpg" alt="Una foto de Flickr" title="Carrot Cake Cupcakes-sweettonescupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image3"><a href="http://www.flickr.com/photos/sweettones_cupcakes/24569704178/"><img src="http://farm5.staticflickr.com/4549/24569704178_a2de907698_s.jpg" alt="Una foto de Flickr" title="Strawberry Shortcake Ice Cream Bar Cupcakes - Sweettonescupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image4"><a href="http://www.flickr.com/photos/147430215@N06/23901231517/"><img src="http://farm5.staticflickr.com/4557/23901231517_5f3b123f36_s.jpg" alt="Una foto de Flickr" title="Sparkling Cranberry Orange Cupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image5"><a href="http://www.flickr.com/photos/sweettones_cupcakes/38245432976/"><img src="http://farm5.staticflickr.com/4534/38245432976_240fd59983_s.jpg" alt="Una foto de Flickr" title="Assorted Chocolate Cupcakes-Sweettonescupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image6"><a href="http://www.flickr.com/photos/sweettones_cupcakes/38593214471/"><img src="http://farm5.staticflickr.com/4523/38593214471_82bba8e4f2_s.jpg" alt="Una foto de Flickr" title="Chocolate/Vanilla Swirl Cupcakes-Sweettonescupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image7"><a href="http://www.flickr.com/photos/151613545@N08/27062959229/"><img src="http://farm5.staticflickr.com/4543/27062959229_f7878bb129_s.jpg" alt="Una foto de Flickr" title="cupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image8"><a href="http://www.flickr.com/photos/sweettones_cupcakes/38598311532/"><img src="http://farm5.staticflickr.com/4533/38598311532_6ac674345a_s.jpg" alt="Una foto de Flickr" title="Coconut-Coffee Latte Cupcakes-Sweettonescupcakes" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image9"><a href="http://www.flickr.com/photos/sweettones_cupcakes/23420319171/"><img src="http://farm6.staticflickr.com/5638/23420319171_7dab134302_s.jpg" alt="Una foto de Flickr" title="Chocolate-Caramel Cupcakes-Sweettonescupcakes" height="75" width="75"></a></div>';
+
+b_txt += '<span style="position:absolute;left:-999em;top:-999em;visibility:hidden" class="flickr_badge_beacon"><img src="http://geo.yahoo.com/p?s=792600102&t=2e8675dba4b369f98e9a1fd1a183c6f4&r=http%3A%2F%2Fconfetti.html.themeforest.createit.pl%2F&fl_ev=0&lang=es&intl=co" width="0" height="0" alt="" /></span>';
+
+document.write(b_txt);
